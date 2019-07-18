@@ -1,0 +1,58 @@
+article {
+	text-align: center;
+}
+
+li > h2 {
+  margin: 5px;
+}
+
+p {
+  text-align: justify;
+}
+
+.chapters-list {
+	display: inline-block;
+	position: fixed;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 70%;
+	border: 3px solid #1C1C1C;
+	background-image: url(http://www.imageup.ru/img127/3429475/elvensword.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #FFFFFF;
+}
+
+span {
+	font-weight: bold;
+	font-style: italic;
+}
+
+a:last-child {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.delete {
+	text-decoration: line-through;
+}
+
+article.chapter-1 {
+	color: #30BA8F;
+}
+
+article.chapter-2 {
+	color: #FF7F00;
+}
+
+article.chapter-3 {
+	color: #8F00FF;
+}
+
+article.chapter-4 {
+	color: #CB6586;
+}
+
+article.chapter-5 {
+	color: #CAA885;
+}
