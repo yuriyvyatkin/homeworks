@@ -1,0 +1,232 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f9f9f9;
+  color: #32325f;
+}
+
+/* общие классы */
+.section-subtitle {
+  display: block;
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.section-title {
+  display: block;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+/* Шапка */
+.hero {
+  padding: 74px 0 191px;
+  background-color: #f4f5f7;
+}
+
+.container {
+  max-width: 1140px;
+  width: 96%;
+  margin: 0 auto;
+}
+
+.navbar {
+  margin-bottom: 159px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #95989a;
+}
+
+.social a {
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* Карточка книги */
+.subtitle {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.title {
+  display: block;
+  margin-bottom: 26px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.description {
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.price-tag {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.price {
+  display: block;
+  margin-bottom: 49px;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-text {
+  width: 50%;
+}
+
+.btn {
+  padding: 20px 30px;
+  box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+  border-radius: 6px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.btn-order {
+  margin-right: 20px;
+  background-color: #2dce89;
+}
+
+.btn-audio {
+  background-color: #5e72e4;
+}
+
+.about {
+  background-color: #ffffff;
+}
+
+/* Информация о книге */
+.about {
+  padding-top: 90px;
+  padding-bottom: 131px;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.block {
+  width: 23%;
+  margin-right: 2%;
+}
+
+.block-text {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 40px 0;
+  line-height: 1.4;
+}
+
+/* Заказчики */
+.people {
+  padding-top: 90px;
+  padding-bottom: 112px;
+}
+
+.photos {
+  margin-top: 64px;
+  margin-bottom: 76px;
+  font-size: 0;
+  width: 1143px;
+}
+
+.photos li {
+  display: inline-block;
+  width: 30%;
+  margin-bottom: 36px;
+}
+
+.photos li > div {
+  display: table;
+  width: 100%;
+  height: 254px;
+}
+
+.photos li:nth-child(-4n+5) {
+  margin-right: 5%;
+}
+
+.photos li:nth-child(-2n+4) {
+  margin-right: 5%;
+}
+
+.buyer-1 {
+  background-image: url("../img/photo1.jpg");
+}
+
+.buyer-2 {
+  background-image: url("../img/buyer-2.jpg");
+}
+
+.buyer-3 {
+  background-image: url("../img/buyer-3.jpg");
+}
+
+.buyer-4 {
+  background-image: url("../img/buyer-4.jpg");
+}
+
+.buyer-5 {
+  background-image: url("../img/buyer-5.jpg");
+}
+
+.buyer-6 {
+  background-image: url("../img/buyer-6.jpg");
+}
+
+/* Подвал */
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #32325f;
+  color: #ffffff;
+  padding: 70px 0 70px;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 1143px;
+}
+
+.footer-block {
+  width: 33%;
+}
+
+.footer-title {
+  margin-bottom: 35px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.footer a {
+  display: block;
+  color: #ffffff;
+}
+
+.footer p {
+  line-height: 1.4;
+}
