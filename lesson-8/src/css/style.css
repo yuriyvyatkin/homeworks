@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #f9f9f9;
   color: #32325f;
+  overflow-x: hidden;
 }
 
 /* общие классы */
