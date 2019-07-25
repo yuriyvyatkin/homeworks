@@ -1,0 +1,95 @@
+body {
+  color: #32325f;
+  font-size: 20px;
+}
+
+/* Шапка */
+.logo {
+  margin-left: -10px;
+}
+
+.social {
+  margin-right: -15px;
+}
+
+/* Карточка книги */
+.title {
+  font-size: 48px;
+}
+
+.price {
+  font-size: 48px;
+}
+
+.main {
+  margin-top: 100px;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.hero {
+  padding-top: 70px;
+  padding-bottom: 190px;
+}
+
+.btn {
+  padding: 20px 30px;
+  box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.btn-order {
+  margin-right: 30px;
+  background-color: #2dce89;
+}
+
+.btn-audio {
+  background-color: #5e72e4;
+}
+
+.main-image {
+  margin-left: 106px;
+  margin-top: 97px;
+}
+
+/* Описание книги */
+.section {
+  padding-top: 107px;
+  padding-bottom: 143px;
+}
+
+.section-title {
+  font-size: 48px;
+  margin-bottom: 95px;
+}
+
+.about img {
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size: 16px;
+}
+
+/* Подвал */
+.footer {
+  padding-top: 64px;
+  padding-bottom: 74px;
+  background-color: #32325f;
+}
+
+.footer-title {
+  margin-bottom: 35px;
+  font-size: 24px;
+}
+
+.footer a {
+  color: #ffffff;
+}
+
+.footer p {
+  font-size: 16px;
+}
