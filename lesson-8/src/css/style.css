@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #f9f9f9;
   color: #32325f;
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
 }
 
 /* общие классы */
@@ -164,6 +164,7 @@ body {
   display: table;
   width: 100%;
   height: 254px;
+  background-size: cover;
 }
 
 .photos li:nth-child(-4n+5) {
@@ -210,11 +211,16 @@ body {
 .footer-wrap {
   display: flex;
   justify-content: space-between;
-  width: 1143px;
+  min-width: 1143px;
 }
 
 .footer-block {
-  width: 33%;
+  #FFFFFFFF
+  width: 258px;
+}
+
+.footer-block:nth-child(n+2) {
+  margin-left: 132px;
 }
 
 .footer-title {
