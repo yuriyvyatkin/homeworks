@@ -1,0 +1,59 @@
+$main-color: #666666
+$line-height: 16px
+$i-b: inline-block
+
+.footer
+  margin-top: 60px
+  background-color: #131313
+  padding: 59px 0
+  color: $main-color
+  &-policy
+    &-link
+      font-size: 12px
+  p
+    margin-bottom: 14px
+  a
+    color: $main-color
+    text-decoration: none
+  a:hover
+    color: #fff
+  small
+    display: block
+    margin-top: 56px
+    line-height: $line-height
+    font-size: 10px
+    max-width: 80%
+  ul
+    padding: 0
+    list-style: none
+  ul 
+    li
+      line-height: $line-height * 2
+  &-contacts
+    text-align: right
+  &-social
+    &-links
+      
+  &-contacts
+    &_phone
+      font-weight: 400
+      font-size: 20px
+      color: #009adf
+  &-social
+    &-links
+      li
+        display: $i-b
+        a
+          display: $i-b
+          width: 42px
+          height: 42px
+          background-color: rgba(255, 255, 255, 0.1)
+          text-align: center
+          border-radius: 50%
+          line-height: 42px
+          margin-left: 10px
+          -webkit-transition: all 0.2s
+          transition: all 0.2s
+        a:hover
+          background-color: rgba(255, 255, 255, 0.9)
+          color: #131313
